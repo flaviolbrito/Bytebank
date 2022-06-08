@@ -10,5 +10,17 @@ fun main() {
     println("titular $titular")
     println("número da conta $numeroConta")
     println("saldo da conta $saldo")
-
+//
+//    if (saldo > 0.0 )
+//        println("saldo positivo")
+//    else if ( saldo == 0.0 )
+//        println("saldo positivo")
+//        else
+//        println("saldo negativo")
+//}
+when {
+        saldo > 0.0 -> println("saldo positivo")
+        saldo == 0.0 -> println("saldo positivo")
+        else -> println("saldo negativo")
+    }
 }
